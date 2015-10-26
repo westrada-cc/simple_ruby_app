@@ -15,7 +15,7 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = 'rails-tutorial-c9-mhartl.c9.io'
+  host = 'https://rails-tutorial-westrada-cc.c9.io/login'
   config.action_mailer.default_url_options = { host: host }
 
   # Print deprecation notices to the Rails logger.
